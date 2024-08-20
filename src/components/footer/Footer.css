@@ -1,0 +1,22 @@
+.footer-link:hover {
+    color: #fff !important;
+    opacity: 1 !important;
+    transition: 0.3s;
+}
+.css-aqpgxn-MuiFormLabel-root-MuiInputLabel-root {
+    color: #fff !important;
+    opacity: 0.5 !important;
+    font-size: 13px !important;
+}
+.css-1x51dt5-MuiInputBase-input-MuiInput-input,
+.css-1c2i806-MuiFormLabel-root-MuiInputLabel-root {
+    color: #fff !important;
+    opacity: 1 !important;
+}
+.css-1eed5fa-MuiInputBase-root-MuiInput-root::before {
+    border-bottom: 2px solid #ddd !important;
+    opacity: 0.5;
+}
+.css-1eed5fa-MuiInputBase-root-MuiInput-root::after {
+    border-bottom: 2px solid white !important;
+    }

@@ -1,0 +1,229 @@
+.services {
+    position: relative;
+    padding-top: 60px;
+}
+.services .swiper .Container {
+    width: 100% !important;
+    position: absolute;
+    top: 0;
+    z-index: 5;
+    margin-left: 50% !important;
+    margin-right: 50% !important;
+    transform: translate(-50% , -50%);
+}
+.services h6{
+font-size: 14px !important;
+    font-weight: 300 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 2px !important;
+    margin-bottom: 8px !important;
+    color: #fff !important;
+}
+.services .h-services{
+    display: flex !important;
+    justify-content: space-between!important;
+    align-items: center !important;
+    padding-top: 20px;
+    width: 100% !important;
+}
+.services .h-services .tit-services span {
+    font-size: 60px;
+    color: #fff;
+}
+.services .h-services .text-services p {
+    line-height: 1.8;
+    font-size: 16px;
+    font-weight: 300;
+    color: #ddd;
+}
+.services .icon-services .ser-icon-prev,
+.services .icon-services .ser-icon-next {
+    min-width: 40px !important;
+    height: 40px !important;
+    border: 1px solid rgba(255, 255, 255, 0.5) !important;
+    border-radius: 50%;
+    padding: 0 !important;
+    text-align: center !important;
+}
+.services .icon-services .ser-icon-prev svg,
+.services .icon-services .ser-icon-next svg {
+    color: #ddd !important;
+}
+
+/* Swiper */
+
+.services .ser-swiper .SwiperSlide {
+    padding-top: 175px !important;
+}
+.services .ser-swiper .card {
+    background-color: transparent !important;
+    padding: 60px 45px !important;
+    border-right: 1px solid rgba(255, 255, 255, 0.1) !important ;
+    border-radius: 0 !important;
+}
+.services .ser-swiper .card .img {
+    width: 60px !important;
+    height: 60px !important;
+    margin-bottom: 35px !important;
+}
+.services .ser-swiper .card .CardContent {
+    padding: 0 !important;
+}
+.services .ser-swiper .card .ser_title {
+    color: #fff;
+    margin-bottom: 15px !important;
+    font-size: 20px !important;
+    text-transform: capitalize !important;
+}
+.services .ser-swiper .card .ser_prag {
+    color: #ddd;
+    font-size: 12px !important;
+    font-weight: 300 !important;
+    line-height: 1.8 !important;
+}
+.services .ser-swiper .card .ser_bot_icon {
+    color: #fff;
+}
+.services .ser-swiper .card .ser_bot_icon svg {
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.05);
+    margin-right: 15px;
+}
+.services .tetails-services .tet-ser-left {
+        background-color: #1a1a1a;
+}
+.services .tetails-services .tet-ser-left .ser-comp:last-child {
+    margin: 0 !important;
+}
+.services .tetails-services .tet-ser-left .ser-title {
+    font-size: 14px !important;
+    font-weight: 300 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 2px !important;
+    margin-bottom: 15px !important;
+    color: #fff;
+}
+.services .tetails-services .tet-ser-left h2 {
+    margin-bottom: 15px !important;
+    font-size: 45px !important;
+    font-weight: 600 !important;
+    line-height: 1.3 !important;
+    color: #fff;
+}
+.services .tetails-services .tet-ser-left .ser-p {
+    line-height: 1.8;
+    font-size: 16px;
+    font-weight: 300;
+    color: #ddd;
+    margin-bottom: 30px !important;
+}
+.services .tetails-services .tet-ser-left .ser-link {
+    position: relative;
+    margin-left: 25px !important;
+    z-index: 5;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+}
+.services .tetails-services .tet-ser-left .ser-link::after {
+    content: '';
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: -25px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    opacity: .05;
+    z-index: -1;
+}
+.services .tetails-services .tet-ser-left .ser-link svg {
+    z-index: 5;
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+    transform: translate(0%, 12%);
+}
+
+.services .collaps .imags .img-One {
+    width: 75% !important;
+    margin-left: 25% !important;
+    position: relative !important;
+    z-index: 3;
+}
+.services .collaps .imags .img-One::after{
+    content: '';
+    position: absolute;
+    left: -30px;
+    top: 0;
+    width: 8px;
+    height: 150px;
+    background: #c9f31d;
+}
+.services .collaps .imags .img-One::before{
+    content: '';
+    position: absolute;
+    right: -30px;
+    bottom: -30px;
+    width: 200px;
+    height: 200px;
+    background-image: url(../../../public/assets/collapse3.png);
+    background-repeat: repeat;
+    z-index: -1;
+}
+.services .collaps .imags .img-Two {
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+    width: 50%;
+    z-index: 4;
+}
+.services .cont .text h2 {
+    color: #fff;
+    font-weight: 600;
+    line-height: 1.3;
+}
+.services .cont .text h2 span {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 500;
+}
+.services .cont .accordion-per .accordion {
+    background-color: transparent !important;
+    margin-bottom: 0 !important;
+    box-shadow: none !important;
+}
+.services .cont .accordion-per .accordion .accordion-head {
+    color: #fff;
+    font-size: 16px !important;
+    font-weight: 500;
+    line-height: 1.8;
+    padding: 10px 0 10px 0 !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+.services .cont .accordion-per .accordion .accordion-head svg {
+    color: #999 !important;
+}
+.services .cont .accordion-per .accordion .accordion-details {
+    line-height: 1.8;
+    font-size: 14px;
+    font-weight: 300;
+    color: #ddd;
+    padding: 16px !important;
+}
+.css-o4b71y-MuiAccordionSummary-content{
+    margin: 10px 0 !important;
+}
+
